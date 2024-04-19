@@ -1,4 +1,4 @@
-MySQL 8.0 等 CTE 递归查询
+MySQL 8.0 (或pgsql hive 等) CTE 递归查询
 MySQL 8.0 引入CTE(Common Table Expression)功能，CTE除了替代派生表以外，还有一个重要的功能，实现递归查询。在CTE功能引入之前，MySQL很难在SQL语句层实现递归查询，一种间接的方式是通过创建存储过程，而引入CTE后，SQL语句级的递归查询将变得很容易，本文将简单介绍CTE递归查询的使用。
 
 一、什么是CTE递归查询？
